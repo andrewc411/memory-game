@@ -11,3 +11,20 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
+  @font-face {
+    font-family: myFont1;
+    src: url(Minecraft.ttf);
+  }
+  h1 {
+    font-family: myFont1;
+  }
+  @font-face {
+    font-family: myFont2;
+    src: url(ARCADECLASSIC.TTF);
+  }
+  h2 {
+    font-family: myFont2;
+    color:deeppink;
+    font-size: 35px;
+    -webkit-text-stroke: .3px black;
+  }
