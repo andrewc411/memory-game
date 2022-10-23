@@ -4,3 +4,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+html { 
+    background: url(https://celcliptipsprod.s3-ap-northeast-1.amazonaws.com/tips_article_body/8da9/863300/34676564ee1df984c541fa8e22151208_small) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

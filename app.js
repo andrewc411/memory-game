@@ -97,7 +97,7 @@ function checkMatch() {
     cardChosenId = []
 
     if (cardsWon.length == cardArray.length/2) {
-        resultDisplay.textContent = 'Congratulations! You found all matches!'
+        resultDisplay.innerHTML = ' Congratulations! You found all matches! Refresh the page to play again 👾'
     }
 }
 
